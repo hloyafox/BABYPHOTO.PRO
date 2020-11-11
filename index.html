@@ -46,22 +46,22 @@
     
         <ul class="nav justify-content-center navbar-light" style="background-color: #ffd8b1;">
             <li class="nav-item">
-              <a class="nav-link active" href="#reasons"><span class="navbar-text">Кому нужна съёмка малыша?</span></a>
+              <a class="nav-link active" id="link6" href="#reasons"><span class="navbar-text">Кому нужна съёмка малыша?</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#pills-tab"><span class="navbar-text">Что входит в съёмку?</span></a>
+              <a class="nav-link" id="link1" href="#pills-tab"><span class="navbar-text">Что входит в съёмку?</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#studio"> <span class="navbar-text">Моя студия</span></a>
+              <a class="nav-link" id="link2" href="#studio"> <span class="navbar-text">Моя студия</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#reviewscarousel"><span class="navbar-text">Отзывы</span></a>
+              <a class="nav-link" id="link3" href="#reviews"><span class="navbar-text">Отзывы</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#"><span class="navbar-text">Гарантии</span></a>
+                <a class="nav-link" id="link4" href="#"><span class="navbar-text">Гарантии</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#"><span class="navbar-text">Записаться на съёмку</span></a>
+                <a class="nav-link" id="link5" href="#"><span class="navbar-text">Записаться на съёмку</span></a>
             </li>
           </ul>
         
@@ -407,7 +407,7 @@
   </div>
   
   <div class="container-fluid mt-5">
-    <h2>Мамы в восторге!</h2>
+    <h2 id="reviews">Мамы в восторге!</h2>
     <p>Что говорят клиенты, которые уже провели фотосессию малыша</p> 
 
   
@@ -577,11 +577,21 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    
+    <script src="jquery.js"></script>
 
    
 
 </script>
+
+<script>
+
+  $('a[id^="link"][href^="#"]').click(function(){
+        var target = $(this).attr('href');
+        $('html, body').animate({scrollTop: $(target).offset().top}, 600);
+        return false;
+  });
+  
+  </script>
 
 <script>
   $('.btn-primary').on('click', function() {
@@ -589,6 +599,8 @@
   });
 
 </script>
+
+
 
 
 
