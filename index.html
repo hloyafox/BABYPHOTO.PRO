@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
 
     <title>BABYPHOTO.PRO</title>
   </head>
@@ -61,7 +62,7 @@
                 <a class="nav-link" id="link4" href="#"><span class="navbar-text">Гарантии</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" id="link5" href="#"><span class="navbar-text">Записаться на съёмку</span></a>
+                <a class="nav-link" id="link5" href="#submit"><span class="navbar-text">Записаться на съёмку</span></a>
             </li>
           </ul>
         
@@ -482,7 +483,7 @@
 
   <div class="container-fluid mt-5">
 
-    <button type="button" data-toggle="collapse" data-target="#submit" class="btn btn-outline-dark btn-block">Записаться на фотосессию</button>
+    <button type="button" id="rev" data-toggle="collapse" class="btn btn-outline-dark btn-block">Прочитать Отзывы</button>
 
   </div>
 
@@ -573,6 +574,36 @@
         <div id="averin_widget"></div>
     </div>
 
+    <div class="col-4">
+
+      <h1> Я в социальных сетях</h1>
+
+      <div class="social whatsapp">
+        <a href="https://www.api.whatsapp.com/send?phone=79276902690 " target="_blank"><i class="fa fa-whatsapp fa-2x"></i></a>
+      </div>
+
+      <div class="social telegram">
+        <a href="https://www.t.me/annagreen" target="_blank"><i class="fa fa-paper-plane fa-2x"></i></a>
+      </div>
+
+      <div class="social vk">
+        <a href="https://vk.com/annagreen.photo" target="_blank"><i class="fa fa-vk fa-2x"></i></a>    
+      </div>
+
+      <div class="social instagram">
+        <a href="https://www.instagram.com/annagreen.photo/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+      </div>
+
+      <div class="social facebook">
+        <a href="https://www.facebook.com/annagreen.photographer/" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>    
+      </div>
+
+      <div class="social youtube">
+        <a href="https://youtube.com/channel/UC01MGFyLjZhd4J00cjDR3HA" target="_blank"><i class="fa fa-youtube fa-2x"></i></a>
+      </div>
+      
+    </div>
+
 </div>
 </div>
        
@@ -599,6 +630,13 @@
   });
   
   </script>
+
+<script>
+  $('#rev').on('click', function() {
+    window.location.href='reviews.html'
+  });
+
+</script>
 
 <script>
   $('.btn-primary').on('click', function() {

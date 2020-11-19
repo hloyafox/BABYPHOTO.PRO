@@ -57,7 +57,7 @@ body {
 
 h1 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     margin-top: 20px;
 }
 
@@ -90,3 +90,29 @@ h3 {
     margin-bottom: 10px;
     }
 
+    @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+    .social a {
+        text-align: center;
+        width: 80px;
+        height: 80px;
+        float: left;
+        background: #fff;
+        border: 1px solid #ccc;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 60px rgba(0,0,0,0.1);
+        border-radius: 80px;
+        margin: 0 20px 20px 0;
+        padding: 20px;
+        color: #000;
+    }
+
+    .social {
+        display: inline;
+        text-align: center;
+    }
+    .youtube a:hover {background: #c4302b; color: #fff;}
+    .instagram a:hover {background: #3f729b; color: #fff;}
+    .facebook a:hover {background: #3b5998; color: #fff;}
+    .vk a:hover {background: #5d84ae; color: #fff;}
+    .telegram a:hover {background: #249bd7; color: #fff;}
+    .whatsapp a:hover {background: #50b154; color: #fff;}
+    
