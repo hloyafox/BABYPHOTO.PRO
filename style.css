@@ -3,6 +3,12 @@ body {
     margin: auto;
     background-color: #ffd8b1;
 }
+
+a {
+    font-family: 'PenguinAttackCyrillic';
+    font-weight: bold;
+    font-size: x-large;
+}
 .navbar{
     width: 100%;
 }
@@ -23,7 +29,6 @@ body {
     height: 550px;
     margin-bottom: 20px;
 }
-
 
 
 
@@ -56,23 +61,30 @@ body {
 }
 
 h1 {
+    font-family: '18046', 'SnyderSpeedBrushCyr-Regular';
     text-align: center;
     margin-bottom: 30px;
-    margin-top: 20px;
+    margin-top: 100px;    
 }
 
 h2 {
+    font-family: '18046', 'SnyderSpeedBrushCyr-Regular';
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    margin-top: 100px;
+        
 }
 
 h3 {
+    font-family: '18046', 'SnyderSpeedBrushCyr-Regular';
     text-align: center;
     margin-bottom: 20px;
-    margin-top: 20px;
+    
+    
 }
 
 .facts {
+    font-family: '18046', 'SnyderSpeedBrushCyr-Regular';
     text-align: center;
     font-size: 3em;
     text-shadow: aquamarine;
@@ -101,7 +113,7 @@ h3 {
         box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 60px rgba(0,0,0,0.1);
         border-radius: 80px;
         margin: 0 20px 20px 0;
-        padding: 20px;
+        padding: 15px;
         color: #000;
     }
 
@@ -116,3 +128,39 @@ h3 {
     .telegram a:hover {background: #249bd7; color: #fff;}
     .whatsapp a:hover {background: #50b154; color: #fff;}
     
+
+@font-face {
+    font-family: 'PenguinAttackCyrillic';
+    src: url('PenguinAttackCyrillic.eot');
+    src: url('fonts/PenguinAttackCyrillic.eot?#iefix') format('embedded-opentype'),
+         url('fonts/PenguinAttackCyrillic.svg#PenguinAttackCyrillic') format('svg'),
+         url('fonts/PenguinAttackCyrillic.ttf') format('truetype'),
+         url('fonts/PenguinAttackCyrillic.woff') format('woff'),
+         url('fonts/PenguinAttackCyrillic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    
+  }
+
+  @font-face {
+    font-family: '18046';
+    src: url('fonts/18046.eot');
+    src: url('fonts/18046.eot?#iefix') format('embedded-opentype'),
+         url('fonts/18046.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-size: xx-large;
+  }
+  
+  @font-face {
+    font-family: 'SnyderSpeedBrushCyr-Regular';
+    src: url('fonts/SnyderSpeedBrushCyr-Regular.svg#SnyderSpeedBrushCyr-Regular') format('svg'),
+         url('fonts/SnyderSpeedBrushCyr-Regular.ttf') format('truetype'),
+         url('fonts/SnyderSpeedBrushCyr-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-size: xx-large;
+  }
+  
+ 
+  
