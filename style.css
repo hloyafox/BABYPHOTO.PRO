@@ -42,17 +42,18 @@ a {
 }
 .reasons li{
     padding:6px;
+    text-align: center;
+    font-size: x-large;
 }
 .reasons li:before {
     padding-right:10px;
     font-weight: bold;
     color: #C0C0C0;
-    content: "\2714";
     transition-duration: 0.5s;
 }
 .reasons li:hover:before {
     color: #337AB7;
-    content: "\2714";
+    
 }    
 #Anna {
     max-width:100%;
@@ -101,6 +102,15 @@ h3 {
     margin-top: 10px;
     margin-bottom: 10px;
     }
+
+#factSecond, #softy, #softyOne {
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
 
     @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
     .social a {
