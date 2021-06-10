@@ -64,17 +64,17 @@ a {
     
 }
 
-.card-body:hover {
-    -webkit-transform: scale(1.05);
-    -ms-transform: scale(1.05);
-    transform: scale(1.05);
+.card-text:hover {
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
 }
 
-.cards:hover {
+/* .cards:hover {
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
     transform: scale(1.05);
-}
+} */
 
 #Anna {
     max-width:100%;
